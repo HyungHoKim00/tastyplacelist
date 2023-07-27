@@ -4,15 +4,57 @@
     <head>
         <title>돌쇠와 석쇠</title>
         <meta charset="utf-8">
+        <style>
+        h1{
+            border-bottom: 1px solid black;
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 50px;
+        }
+        h1 a{
+                text-decoration: none;
+                color: black;
+            }
+        #grid ul{
+                border-right: 1px solid black;
+                width: 100px;
+                margin: 0;
+                padding-top: 10px;
+            }
+        #main{
+            margin: 0;
+        }
+        h2{
+            margin: 0;
+            padding-top: 10px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        </style>
     </head>
 
     <body>
-        <a href="index.html">메인으로</a>
-        <h1>돌쇠와 석쇠</h1>
+        <h1><a href="index.html">효돼지와 호돼지의 맛집리스트</a></h1>
+        <div id="grid">
+            <ul>
+                <li style="list-style:none"><a href="namseong.html"><strong>남성역</strong></a></li>
+                <li><a href="dolsway.html">돌쇠와 석쇠</a></li>
+                <li><a href="halmiga.html">할미가</a></li>
+                <li><a href="kyung.html">경이자카야</a></li>
+            </ul>
+            
+            <div id="main">
+                <h2>돌쇠와 석쇠</h2>
 
-        <p>
-            <a href="https://map.naver.com/v5/entry/place/13558011?lng=126.9686905&lat=37.4857365&placePath=%2Fhome&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">돌쇠와 석쇠</a>는 우리의 존맛집이다 고기가 진짜 미친놈이고 가성비도 좋다 나의 최애 고깃집중 하나이다
-        </p>
+                <p>
+                    <a href="https://map.naver.com/v5/entry/place/13558011?lng=126.9686905&lat=37.4857365&placePath=%2Fhome&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">돌쇠와 석쇠</a>는 우리의 존맛집이다 고기가 진짜 미친놈이고 가성비도 좋다 나의 최애 고깃집중 하나이다
+                </p>
+            </div>
+        </div>
     </body>
 
 </html>

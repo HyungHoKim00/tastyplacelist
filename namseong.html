@@ -2,19 +2,58 @@
 
 <html>
     <head>
-        <title>남성역 인근 맛집</title>
+        <title>할미가</title>
         <meta charset="utf-8">
+        <style>
+            h1{
+                border-bottom: 1px solid black;
+                margin: 0;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-size: 50px;
+            }
+            h1 a{
+                text-decoration: none;
+                color: black;
+            }
+            #grid ul{
+                    border-right: 1px solid black;
+                    width: 100px;
+                    margin: 0;
+                    padding-top: 10px;
+            }
+            #main{
+                margin: 0;
+            }
+            h2{
+                margin: 0;
+                padding-top: 10px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            </style>
+            
     </head>
 
     <body>
-        <a href="index.html">메인으로</a>
-        <h1>남성역 인근 맛집</h1>
-
-        <ul>
-            <li><a href="dolsway.html">돌쇠와 석쇠</a></li>
-            <li><a href="halmiga.html">할미가</a></li>
-            <li><a href="kyung.html">이자카야 경</a></li>
-        </ul>
+        <h1><a href="index.html">효돼지와 호돼지의 맛집리스트</a></h1>
+        <div id="grid">
+            <ul>
+                <li style="list-style:none"><a href="namseong.html"><strong>남성역</strong></a></li>
+                <li><a href="dolsway.html">돌쇠와 석쇠</a></li>
+                <li><a href="halmiga.html">할미가</a></li>
+                <li><a href="kyung.html">경이자카야</a></li>
+            </ul>
+            <div>
+                <h2>남성역</h2>
+                <p>
+                    <a href="https://map.naver.com/v5/entry/subway-station/737?c=15,0,0,0,dh">남성역</a>은 우리가 사는 곳인 만큼 제일 많이 가보고 잘 알고있는 곳이다. 생각보다 먹을 곳이 많다
+                </p>
+            </div>
+        </div>         
     </body>
 
 </html>

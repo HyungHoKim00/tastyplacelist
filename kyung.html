@@ -4,15 +4,56 @@
     <head>
         <title>경이자카야</title>
         <meta charset="utf-8">
+        <style>
+            h1{
+                border-bottom: 1px solid black;
+                margin: 0;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-size: 50px;
+            }
+            h1 a{
+                text-decoration: none;
+                color: black;
+            }
+            #grid ul{
+                    border-right: 1px solid black;
+                    width: 100px;
+                    margin: 0;
+                    padding-top: 10px;
+                }
+            #main{
+                margin: 0;
+            }
+            h2{
+                margin: 0;
+                padding-top: 10px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+        </style>
     </head>
-
-    <body>
-        <a href="index.html">메인으로</a>
-        <h1>경이자카야</h1>
-
-        <p>
-            <a href="https://map.naver.com/v5/entry/place/1091262440?lng=126.9739516030201&lat=37.48380204422828&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">경이자카야</a>는 2차로 우리가 자주 갔던 곳이다 하지만 지갑 사정상 자주 가는건 무리가 있다.
-        </p>
+    
+        <body>
+        <h1><a href="index.html">효돼지와 호돼지의 맛집리스트</a></h1>
+        <div id="grid">
+            <ul>
+                <li style="list-style:none"><a href="namseong.html"><strong>남성역</strong></a></li>
+                <li><a href="dolsway.html">돌쇠와 석쇠</a></li>                     <li><a href="halmiga.html">할미가</a></li>
+                <li><a href="kyung.html">경이자카야</a></li>
+            </ul>
+                
+            <div id="main">
+                <h2>경이자카야</h2>
+    
+                <p>
+                    <a href="https://map.naver.com/v5/entry/place/1091262440?lng=126.9739516030201&lat=37.48380204422828&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">경이자카야</a>는 2차로 우리가 자주 갔던 곳이다 하지만 지갑 사정상 자주 가는건 무리가 있다.
+                </p>
+            </div>
+        </div>
     </body>
 
 </html>

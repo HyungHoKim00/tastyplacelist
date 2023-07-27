@@ -4,15 +4,55 @@
     <head>
         <title>할미가</title>
         <meta charset="utf-8">
+        <style>
+            h1{
+                border-bottom: 1px solid black;
+                margin: 0;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-size: 50px;
+            }
+            h1 a{
+                text-decoration: none;
+                color: black;
+            }
+            #grid ul{
+                    border-right: 1px solid black;
+                    width: 100px;
+                    margin: 0;
+                    padding-top: 10px;
+            }
+            #main{
+                margin: 0;
+            }
+            h2{
+                margin: 0;
+                padding-top: 10px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            </style>
     </head>
 
     <body>
-        <a href="index.html">메인으로</a>
-        <h1>할미가</h1>
-
-        <p>
-            <a href="https://map.naver.com/v5/entry/place/1155852774?lng=126.9722364&lat=37.4839172&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">할미가</a>는 우리의 첫만남에서 가장 중요한 장소이자 처음으로 우리가 보쌈을 만들어먹을 생각도 하게 해준 곳이였다. 구석자리 완전 우리 애착자리
-        </p>
+        <h1><a href="index.html">효돼지와 호돼지의 맛집리스트</a></h1>
+        <div id="grid">
+            <ul>
+                <li style="list-style:none"><a href="namseong.html"><strong>남성역</strong></a></li>
+                <li><a href="dolsway.html">돌쇠와 석쇠</a></li>
+                <li><a href="halmiga.html">할미가</a></li>
+                <li><a href="kyung.html">경이자카야</a></li>
+            </ul>
+            <div>
+                <h2>할미가</h2>
+                <p>
+                    <a href="https://map.naver.com/v5/entry/place/1155852774?lng=126.9722364&lat=37.4839172&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh" target = "_blank" title = "네이버지도">할미가</a>는 우리의 첫만남에서 가장 중요한 장소이자 처음으로 우리가 보쌈을 만들어먹을 생각도 하게 해준 곳이였다. 구석자리 완전 우리 애착자리
+                </p>
+            </div>
+        </div>         
     </body>
 
 </html>
